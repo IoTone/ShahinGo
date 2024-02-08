@@ -6,5 +6,5 @@ ShashinGo Concept1
 - Sony Spresense 5MP Camera (CXD5602PWBCAM1_FG_875607605_P)
 - SDCard up to 32GB cards
 - Sparkfun Buttons: https://www.sparkfun.com/products/10302
-- Adafruit Bright Red LED
-- Adafruit LED Holder
+- Adafruit Bright Red LED: https://www.adafruit.com/product/297
+- Adafruit LED Holder: https://www.adafruit.com/product/2176
