@@ -12,8 +12,8 @@ This platform features a 6-core MCU and a 5MP camera.  It is well suited for IoT
 
 ## References
 
-- Buy it: COMING SOON
-- Datasheet: COMING SOON
+- Buy it: https://www.tindie.com/products/iotoneheart/iotone-shashin-go-concept-1/
+- Datasheet: [Datasheet](https://d3s5r33r268y59.cloudfront.net/datasheets/33639/2024-02-07-10-08-35/IoTone_Datasheet_ShashinGo_Concept1.pdf)
 - Concept1 case design attribution: AnshumanFauzdar https://www.thingiverse.com/thing:5078411 
 
 ## Hardware
