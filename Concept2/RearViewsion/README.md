@@ -4,7 +4,8 @@ RearViewsion is a sensor fusion app that is THE missing rearview camera of a Vis
 
 ## Demo and Screenshots
 
-![image](https://github.com/IoTone/ShashinGo/assets/64202/dd890f04-446e-4dca-bb1e-f8348b219b3a)
+![image](https://github.com/IoTone/ShashinGo/assets/64202/8e445356-69a2-4f0a-a1f5-99642222fb40)
+
 
 ![image](https://github.com/IoTone/ShashinGo/assets/64202/d64021eb-922c-473a-b9ee-e269f738b4b9)
 
