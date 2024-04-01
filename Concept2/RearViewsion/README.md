@@ -1,6 +1,41 @@
 # Overview
 
-RearViewsion is a sensorfusion app that takes the rearview camera of a visionpro, based on an ESP32-EYE, and grabs image frames into a floating window.  Since the code is open, you can modify and build upon this for your own designs.  IoTone will release the hardware as part of its own OpenWR (Open Wearable) initiative.  +1 Open Hardware +1 Open Source.  One might argue this is a missing feature of the product.
+RearViewsion is a sensor fusion app that is THE missing rearview camera of a Vision Pro, based on an ESP32-EYE,.  A VisionPro app is provided that grabs image frames into a floating window.  Since the code is open, you can modify and build upon this for your own designs.  IoTone will release the hardware as part of its own OpenWR (Open Wearable) initiative.  +1 Open Hardware +1 Open Source.  One might argue this is a missing feature of the product.
+
+## Demo and Screenshots
+
+![image](https://github.com/IoTone/ShashinGo/assets/64202/dd890f04-446e-4dca-bb1e-f8348b219b3a)
+
+![image](https://github.com/IoTone/ShashinGo/assets/64202/d64021eb-922c-473a-b9ee-e269f738b4b9)
+
+
+![image](https://github.com/IoTone/ShashinGo/assets/64202/9448e5ce-ba10-41fb-b1be-e2000d67c881)
+
+Video demo: (onedrive mp4 file) https://1drv.ms/v/s!AuIL2jCvMCqRiIR8QJMjqO8AvX-dfA?e=YQp5hG
+
+
+## Hardware
+
+### Builds
+
+#### DK Rev 1
+
+Features:
+
+- Research grade / Maker Grade
+- USB-micro power: you will need to work out how you get power to the unit.  Any long cable is feasible.
+- ESP32-EYE base
+- 3D Printed Case with notches for zip ties, through hole for camera mount
+- Firmware Rev1 installed, with source available for improvements
+- Support through OpenWR wiki and github issues
+- The RearViewsion VisionPro app will be available to build and install with a developer license (not yet in the app store).  
+Target price $75 ... TBD.  Early buyers will get a 30% discount on the next rev released, and friends/family coupons to share for 20%.
+
+** Timeline ** : ASAP.   These will be selling on tindie.com as soon as I have at least 10 units assembled.  Working on the 3D design for a case that is acceptable for use.  Estimate by mid to late april depending on sourcing of parts.
+
+##### DK Rev 2
+
+TBD ... possibly a different a different camera with an SDCard slot, battery options.
 
 ## Software Dependencies
 
