@@ -30,6 +30,8 @@ The plan for this hardware is to get it for sale on tindie in several variations
 I would like to test the market to see what is the most useful and cost offective to build.  I expect different offerings in the $30-$100 range, based on enclosure,
 memory, SD storage, applications, etc.
 
+Source Code: https://github.com/IoTone/ShashinGo/tree/main/Concept2/RearViewsion
+
 ## References
 
 - Buy it: https://www.tindie.com/products/iotoneheart/iotone-shashin-go-concept-1/
