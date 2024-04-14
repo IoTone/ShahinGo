@@ -37,6 +37,9 @@ Target price $75 ... TBD.  Early buyers will get a 30% discount on the next rev 
 ##### DK Rev 2
 
 TBD ... possibly a different a different camera with an SDCard slot, battery options.
+RearViewsion is a sensorfusion app that takes the rearview camera of a visionpro, based on an ESP32-EYE, and grabs image frames into a floating window.  This allows the user in VR to see if someone is walking up on them from behind.  The device has face detection (and cat detection) as well so it is possible to add additional features like haptic alerts or notifications if certain things are detected.
+
+Since the code is open, you can modify and build upon this for your own designs.  This is an AI camera and it opens many possibilities.  One might argue this is a missing feature of the Vision Pro product.  IoTone will release the hardware as part of its own OpenWR (Open Wearable) initiative.  +1 Open Hardware +1 Open Source.  
 
 ## Software Dependencies
 
