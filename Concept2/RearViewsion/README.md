@@ -2,6 +2,8 @@
 
 RearViewsion is a sensor fusion app that is THE missing rearview camera of a Vision Pro, based on an ESP32-EYE,.  A VisionPro app is provided that grabs image frames into a floating window.  Since the code is open, you can modify and build upon this for your own designs.  IoTone will release the hardware as part of its own OpenWR (Open Wearable) initiative.  +1 Open Hardware +1 Open Source.  One might argue this is a missing feature of the product.
 
+Since the code is open, you can modify and build upon this for your own designs.  This is an AI camera and it opens many possibilities.  One might argue this is a missing feature of the Vision Pro product.  IoTone will release the hardware as part of its own OpenWR (Open Wearable) initiative.  +1 Open Hardware +1 Open Source.  
+
 ## Demo and Screenshots
 
 ![image](https://github.com/IoTone/ShashinGo/assets/64202/8e445356-69a2-4f0a-a1f5-99642222fb40)
@@ -32,7 +34,7 @@ Target price $75 ... TBD.  Early buyers will get a 30% discount on the next rev 
 
 Please read description of the Kits carefully!  Some kits are great for makers, others are perfect for a non-power user that just wants to plug in and go. Some have DC power options only.  Most have a USB power option.
 
-** Timeline ** : ASAP.   These will be selling on tindie.com as soon as I have at least 10 units assembled.  Working on the 3D design for a case that is acceptable for use.  Estimate by mid to late april depending on sourcing of parts.
+** Timeline ** : ASAP.   These will be selling on tindie.com as soon as I have at least 10 units assembled.  Working on the 3D design for a case that is acceptable for use.  Estimate by mid to late april 2024 depending on sourcing of parts.
 
 #### DK Rev 1 (ESP32-EYE) EOL
 
@@ -54,11 +56,13 @@ Please read description of the Kits carefully!  Some kits are great for makers, 
 
 - Buy: TODO Add link
 - Hardware Details: https://www.arducam.com/esp32-machine-vision-learning-guide/
+- Schematics: https://raw.githubusercontent.com/SeeedDocument/forum_doc/master/reg/ESP32_CAM_V1.6.pdf
 - This is a prevalant option on Amazon and Ebay and you can source these in volume for very cheap.
-- USB Micro Power
+- USB Micro Power, but recommeded to power directly via 3.3V or 5V + GND pins (remove the "MD" board if programming or debugging isn't needed)
 - Includes controllable front side LED that can be controlled
 - There are a lot of cases available for 3D printing, for example: https://www.thingiverse.com/thing:3463679
-- Image Quality: average/low 5FPS, arguably these boards have the worst EMI sensitivty
+- Includes an SDCard Reader!
+- Image Quality: average/low 5FPS, arguably these boards have the worst EMI sensitivty, and it isn't recommended to use with the USB power.
 - Only runs on 192.168.4.1, you need to join it's WIFI network "ESP32-CAM"
 - Only accepts a single Wifi client
 - Insecure host, so exception is required
@@ -93,15 +97,12 @@ Please read description of the Kits carefully!  Some kits are great for makers, 
 - Only runs on 192.168.4.1, you need to join it's WIFI network "UnitCamS3-WIFI"
 - Only accepts a single Wifi client
 - Insecure host, so exception is required
-- This UI has a few controls and requires a first effort to turn on the stream
+- This UI has a few controls and requires a first effort to turn on the stream 
 - No known issues with the VisionOS app. 
 
 ##### DK Rev 2
 
-TBD ... possibly a different a different camera with an SDCard slot, battery options.
-RearViewsion is a sensorfusion app that takes the rearview camera of a visionpro, based on an ESP32-EYE, and grabs image frames into a floating window.  This allows the user in VR to see if someone is walking up on them from behind.  The device has face detection (and cat detection) as well so it is possible to add additional features like haptic alerts or notifications if certain things are detected.
-
-Since the code is open, you can modify and build upon this for your own designs.  This is an AI camera and it opens many possibilities.  One might argue this is a missing feature of the Vision Pro product.  IoTone will release the hardware as part of its own OpenWR (Open Wearable) initiative.  +1 Open Hardware +1 Open Source.  
+TBD ... possibly a different a different camera with an SDCard slot, battery options.  Looking to create a BLE configuration interface to allow easy set up of features and connect it to WiFi.  How to make this a remote server for simple low res camera stream and integrate via native APIs instead of HTML5.  Capture stills?  Remote trigger?  Wearable trigger?
 
 ## Software Dependencies
 
