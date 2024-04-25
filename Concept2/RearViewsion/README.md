@@ -45,13 +45,14 @@ Please read description of the Kits carefully!  Some kits are great for makers, 
 
 #### DK Rev 1 (ESP32-EYE) EOL
 
-- Buy: TODO Add link
+- [Buy on Tindie.com](https://www.tindie.com/products/iotoneheart/iotone-shashingo-c2-ai-camera-for-vr-esp32-eye/)
 - Hardware Details: https://wiki.dfrobot.com/ESP-EYE%20Development%20Board%20SKU:%20DFR0620
 - Only One Available in this configuration.  Unfortunately these are no longer produced by Espressif.
 - You can find these on ebay, and make your own.
 - USB Micro Power
 - No hardware case, PCB only
 - Image Quality: average/low 5FPS
+- Include a Microphone built in
 - Only runs on 192.168.4.1, you need to join it's WIFI network "ESP32-EYE"
 - Only accepts a single Wifi client
 - Insecure host, so exception is required
@@ -79,7 +80,7 @@ Please read description of the Kits carefully!  Some kits are great for makers, 
 
 #### DK Rev 1 (M5CameraX Unit)
 
-- Buy: TODO Add link
+- [Buy on Tindie.com](https://www.tindie.com/products/iotoneheart/iotone-shashingo-c2-ai-camera-for-vr-m5camerax/)
 - In terms of inventory, these seem to be in good supply, but I would expect these to go EOL at some point in the near future.
 - Hardware Details: https://docs.m5stack.com/en/unit/m5camera_x
 - These are extremely nice package, and can be easily mounted.
@@ -94,7 +95,7 @@ Please read description of the Kits carefully!  Some kits are great for makers, 
 
 #### DK Rev 1 (ESP32-FISHEYE with PSRAM)
 
-- Buy: TODO Add link
+- [Buy on Tindie.com](https://www.tindie.com/products/iotoneheart/iotone-shashingo-c2-ai-camera-for-vr-fisheye/)
 - In terms of inventory, these seem to be in good supply, but I would expect these to go EOL at some point in the near future.
 - Hardware Details: https://docs.m5stack.com/en/unit/ESP32CAM-PSRAM
 - USB-C Power
