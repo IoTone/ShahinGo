@@ -19,6 +19,13 @@ Video demo: (onedrive mp4 file) https://1drv.ms/v/s!AuIL2jCvMCqRiIR8QJMjqO8AvX-d
 
 ## Hardware
 
+### Firmware
+
+There are multiple firemware options (at least 3-4) possible.  The basic "CameraWebServer" example is bundled in this repository in the directory under Concept2.  Additional firmware is found here:
+
+- (For M5Stacks base, ESP-IDF) https://github.com/m5stack/M5Stack-Camera/tree/master
+- (Arduino Based, recommended) https://github.com/easytarget/esp32-cam-webserver
+
 ### Builds
 
 DK (DevKit) Features:
@@ -60,7 +67,7 @@ Please read description of the Kits carefully!  Some kits are great for makers, 
 - This is a prevalant option on Amazon and Ebay and you can source these in volume for very cheap.
 - USB Micro Power, but recommeded to power directly via 3.3V or 5V + GND pins (remove the "MD" board if programming or debugging isn't needed)
 - Includes controllable front side LED that can be controlled
-- There are a lot of cases available for 3D printing, for example: https://www.thingiverse.com/thing:3463679
+- There are a lot of cases available for 3D printing, for example: https://www.thingiverse.com/thing:3463679 or https://www.printables.com/model/456819-case-for-esp32cam
 - Includes an SDCard Reader!
 - Image Quality: average/low 5FPS, arguably these boards have the worst EMI sensitivty, and it isn't recommended to use with the USB power.
 - Only runs on 192.168.4.1, you need to join it's WIFI network "ESP32-CAM"
@@ -77,6 +84,21 @@ Please read description of the Kits carefully!  Some kits are great for makers, 
 - Hardware Details: https://docs.m5stack.com/en/unit/m5camera_x
 - These are extremely nice package, and can be easily mounted.
 - USB-C Power
+- Image Quality: average 5-8FPS
+- Only runs on 192.168.4.1, you need to join it's WIFI network "M5FishEyeCam"
+- Only accepts a single Wifi client
+- Insecure host, so exception is required
+- This UI lacks any controls, which has advantages for simplicity.
+- Default application supports facetracking on the camera
+- No known issues with the VisionOS app. 
+
+#### DK Rev 1 (ESP32-FISHEYE with PSRAM)
+
+- Buy: TODO Add link
+- In terms of inventory, these seem to be in good supply, but I would expect these to go EOL at some point in the near future.
+- Hardware Details: https://docs.m5stack.com/en/unit/ESP32CAM-PSRAM
+- USB-C Power
+- No hardware case, PCB only
 - Image Quality: average 5-8FPS
 - Only runs on 192.168.4.1, you need to join it's WIFI network "M5FishEyeCam"
 - Only accepts a single Wifi client
