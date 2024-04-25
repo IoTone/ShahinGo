@@ -62,7 +62,7 @@ Please read description of the Kits carefully!  Some kits are great for makers, 
 
 #### DK Rev 1 (ESP32-CAM)
 
-- Buy: TODO Add link
+- [Buy On Tindie.com](https://www.tindie.com/products/iotoneheart/iotone-shashingo-c2-ai-camera-for-vr-esp32-cam/)
 - Hardware Details: https://www.arducam.com/esp32-machine-vision-learning-guide/
 - Schematics: https://raw.githubusercontent.com/SeeedDocument/forum_doc/master/reg/ESP32_CAM_V1.6.pdf
 - This is a prevalant option on Amazon and Ebay and you can source these in volume for very cheap.
@@ -110,7 +110,7 @@ Please read description of the Kits carefully!  Some kits are great for makers, 
 
 #### DK Rev 1 (CameraS3 Unit)
 
-- Buy: TODO Add link
+- [Buy on Tindie.com](https://www.tindie.com/products/iotoneheart/iotone-shashingo-c2-ai-camera-for-vr-cams3/)
 - In terms of inventory, these seem to be in good supply, and are using a newer chip set.
 - Hardware Details: https://docs.m5stack.com/en/unit/Unit-CamS3
 - These are extremely nice package, and can be easily mounted.
